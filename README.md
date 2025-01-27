@@ -24,4 +24,23 @@
 - install [ryu-controller](https://ryu.readthedocs.io/en/latest/getting_started.html) in ubuntu vm.
 
 # Go to Ubuntu/ryu controller vm
+    #check your IP address
+    ifcongif
+   
+    # it should be something 198.162.XX.XX copy it
+    # change working directory to controller folder
+    cd controller
 
+    # switch on the ryu-controller
+    ryu-manager controller.py
+
+# Go to Mininet-vm
+
+    # change working directory to mininet folder
+      cd mininet
+
+    # change controller ip address that you copied from ryu controller ip
+      nano topology.py
+
+    # run topology
+      sudo python topology.py
