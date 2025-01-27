@@ -1,5 +1,6 @@
 ## Installation
-### SetupStep-1
+### Setup
+Step-1
 install [Virtual box](https://www.virtualbox.org/wiki/Downloads) or VM-ware workstation
 
 Step-2 
